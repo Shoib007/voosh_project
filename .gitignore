@@ -1,4 +1,62 @@
-env
+# Ignore .env file, it's for local development only
 .env
+
+.gitignore
+
+# Ignore secret key file
 googleClientSecretKey.json
-googleClientSecretKey
+
+# Ignore Virtual environment folders
+# (https://docs.python.org/3/library/venv.html)
+.env/
+.venv/
+__pycache__/
+
+# Ignore Python byte code
+*.pyc
+*.pyo
+
+# Ignore Django generated files
+*.log
+
+# Ignore local database files (sqlite, postgres, mysql)
+*.sqlite3
+*.pgsql
+*.mysql
+
+# Ignore media files
+media/
+
+# Ignore the static files
+static/
+
+# Ignore the migrations files
+migrations/
+
+# Ignore the cache files
+*.py[cod]
+
+# Ignore the cache db files
+db.sqlite3
+
+# Ignore the cache files
+.cache/
+
+# Ignore the cache files
+.sass-cache/
+
+# Ignore the cache files
+.idea/
+
+# Ignore the coverage files
+.coverage
+
+# Ignore the build files
+build/
+
+# Ignore the dist files
+dist/
+
+# Ignore the egg files
+*.egg
+*.egg-info/
